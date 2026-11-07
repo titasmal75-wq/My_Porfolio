@@ -1,357 +1,559 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Porfolio Website</title>
+    <title>Titas Mal | Portfolio - AI/ML Engineer & Full-Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Titas Mal - AI/ML Engineer and Full-Stack Developer specializing in Generative AI, MLOps, LLMs, and modern web applications.">
+
+
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
 </head>
+
 <body>
-    <header class ="header">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <a href="#" class="logo"  >Titas.</a>
-        <div class="bx bx-menu" id ="menu-icon"></div>
+
+    <header class="header">
+        <a href="#home" class="logo">Titas<span>.</span></a>
+
+        <div class="bx bx-menu" id="menu-icon" aria-label="Toggle navigation menu"></div>
 
         <nav class="navbar">
-            <a href="#home" class ="active">Home</a>
-            <a href="#about" >About</a>
-            <a href="#education" >Education</a>
-            <a href="#skills" >Skills</a>
-            <a href="#project">Project</a>
-            <a href="#contact" >Contact</a>
-            <span class="active-nav"></span>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#education">Journey</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <!-- home section design -->
 
     <section class="home" id="home">
-        <div class="home-content fade-top">
-            <h1>Hi , I'm <span>Titas Mal</span></h1>
-            <div class="text-animate fade-left">
-                <h3>Aiml Enthusiast</h3>
+        <div class="home-content">
+            <div class="badge-tag">Welcome to my space</div>
+
+            <div class="typewriter-box">
+                <h1 class="hero-title">
+                    <span id="typewriter-text"></span><span class="typewriter-cursor">|</span>
+                </h1>
             </div>
-            <p>I’m passionate about building AI-powered web applications that solve real-world problems. From training machine learning models to developing full-stack applications, I love blending intelligence with creativity to create meaningful digital experiences.</p>
-           
-            <div class="btn-box fade-right">
-                <a href="#contact" class="btn">Hire Me</a>
-                <a href="#contact" class="btn">Lets's Talk</a>
+
+            <div class="text-animate">
+                <h3>AI/ML & Full-Stack Developer</h3>
+            </div>
+
+            <p>I build intelligent, production-ready AI applications and scalable web systems. From
+                architecting end-to-end MLOps pipelines and fine-tuning LLMs to crafting full-stack web experiences, I
+                bridge machine learning with real-world digital solutions.</p>
+
+            <div class="btn-box">
+                <a href="#project" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Let's Talk</a>
+            </div>
+
+            <div class="home-sci">
+                <a href="mailto:titas.mal75@gmail.com" title="Email Me" target="_blank" rel="noopener noreferrer">
+                    <img src="Image/gmail.png" alt="Email">
+                </a>
+                <a href="https://github.com/titasmal75-wq" title="GitHub" target="_blank" rel="noopener noreferrer">
+                    <img src="Image/github.webp" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/titas-mal-02b599324/" title="LinkedIn" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="Image/linkln.png" alt="LinkedIn">
+                </a>
             </div>
         </div>
-        
 
-    <div class="home-sci">
-            <a href="#contact"><img src="Image/gmail.png"></a>
-            <a href="https://github.com/titasmal75-wq"><img src="Image/github.webp"></a>
-            <a href="https://www.linkedin.com/in/titas-mal-02b599324/"><img src="Image/linkln.png"></a>
-            
-    </div>
-    <div class="home-img fade-buttom">
-        <div class="img-box">
-        <img src="Image/6c04bc556451925afe99d0400ac8d805.jpg" alt="Titas Mal" class="main-img">
-        <img src="Image/0cce1a2d26a5e3a9517e6efbed201b64.jpg" alt="my photo" class="hover-img">
+        <div class="home-img fade-right">
+            <div class="img-box">
+                <img src="Image/6c04bc556451925afe99d0400ac8d805.jpg" alt="Titas Mal" class="main-img">
+                <img src="Image/0cce1a2d26a5e3a9517e6efbed201b64.jpg" alt="Titas Mal Profile" class="hover-img">
+                <div class="img-text">
 
-        <!-- <div class="img-text">
-            <h2>Myself Titas</h2>
-        </div> -->
+                </div>
+            </div>
         </div>
-       
-    </div>
     </section>
 
-<!-- about section  design -->
+    <section class="about" id="about">
+        <h2 class="heading fade-top">About <span>Me</span></h2>
 
-<section class="about" id="about">
-    <h2 class="heading fade-top">About <span> Me</span></span></h2>
-     <h2 class="heading animate" style="--i:2;"></h2>
+        <div class="about-container">
+            <div class="about-img fade-left">
+                <img src="Image/1cf006697468a872caa9c4889f8cb646.jpg" alt="About Titas Mal">
+            </div>
+
+            <div class="about-content fade-right">
+                <h3>Passionate Problem Solver & AI Innovator</h3>
+                <p>
+                    I'm a Computer Science & Engineering student at <strong>Jalpaiguri Government Engineering
+                        College</strong> with a deep passion for building intelligent software. I combine rigorous
+                    algorithmic problem-solving with cutting-edge AI/ML paradigms and robust full-stack engineering.
+                </p>
 
 
-     <div class="about-img autoshow">
-        
-       <img src="Image/1cf006697468a872caa9c4889f8cb646.jpg" alt="My photo">
+                <div class="about-more-content" id="about-more-content">
+                    <div class="more-cards-grid">
+                        <div class="more-card fade-left">
+                            <i class='bx bx-brain'></i>
+                            <h4>AI & Machine Learning</h4>
+                            <p>Designing custom ML pipelines, exploring Generative AI, implementing Retrieval-Augmented
+                                Generation (RAG) systems, and working with LLMs for real-world impact.</p>
+                        </div>
+                        <div class="more-card fade-bottom">
+                            <i class='bx bx-server'></i>
+                            <h4>Full-Stack & Cloud</h4>
+                            <p>Developing resilient RESTful APIs using FastAPI, Node.js, and Express, with reactive
+                                frontends in React and deployments using Docker and AWS.</p>
+                        </div>
+                        <div class="more-card fade-right">
+                            <i class='bx bx-code-curly'></i>
+                            <h4>Competitive Coding</h4>
+                            <p>Active competitive programmer on LeetCode and Codeforces, continuously refining data
+                                structures, graph theory, and algorithmic thinking.</p>
+                        </div>
+                    </div>
+                </div>
 
-     </div>
-
-     <div class="about-content">
-        <h3>AIMl ENTHUSTIC</h3>
-        <p> Hi, I’m Titas Mal, a Web Developer and aspiring AI/ML Engineer passionate about building modern, user-friendly applications. I love blending creativity with technology while continuously improving my problem-solving skills through competitive programming on platforms like LeetCode and Codeforces. Beyond coding, I enjoy playing football and analyzing strategies on the field.</p>
-
-        <div class="btn-box btns">
-            <a href="#education" class="btn">Read More</a>
+                <div class="about-actions fade-bottom">
+                    <button class="btn btn-primary" id="read-more-btn" type="button">
+                        <span id="read-more-text">Read More</span>
+                        <i class='bx bx-chevron-down' id="read-more-icon"></i>
+                    </button>
+                    <a href="#skills" class="btn btn-outline">Explore Skills</a>
+                </div>
+            </div>
         </div>
-     </div>
-</section>
+    </section>
 
-<!-- Education sevtion -->
 
-<section class="education" id="education">
-    <h2 class="heading">My <span>Journey</span></h2>
-    <div class="education-row">
-        <div class="education-column">
-            <h3 class="title"> Education</h3>
-            <div class="education-box">
-                <div class="education-content">
-                    <div class="content">
-                       <a class="year"><img src="Image/calender.webp" alt="calender">2020-2021</a>
-                       <h3>Secondary Examation</h3>
-                       <p> i passed my secondary examation from BARGACHIA UNION PRIYANATH PATHSALA with
-                        85% marks that is 595 out of 700 from West Bengal Board of Secondary Eduction(WBBSE).
-                       </p>
+    <section class="skills" id="skills">
+        <h2 class="heading fade-top">My <span>Skills</span></h2>
+        <p class="section-subtitle fade-top">A curated snapshot of my technical proficiencies across AI, full-stack
+            engineering, and cloud deployment.</p>
 
+        <div class="skills-filter-container fade-bottom">
+            <button class="filter-btn active" data-filter="all">All Skills</button>
+            <button class="filter-btn" data-filter="ai-ml">AI & GenAI</button>
+            <button class="filter-btn" data-filter="backend">Backend & APIs</button>
+            <button class="filter-btn" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" data-filter="cloud-devops">Cloud & MLOps</button>
+        </div>
+
+        <div class="skills-grid">
+            <!-- AI & GenAI -->
+            <div class="skill-card fade-left" data-category="ai-ml">
+                <div class="skill-icon"><i class='bx bx-bot'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>GenAI & LLMs</h4>
+                        <span class="skill-badge">Advanced</span>
+                    </div>
+                    <p>Prompt engineering, fine-tuning, and integrating Large Language Models.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-top" data-category="ai-ml">
+                <div class="skill-icon"><i class='bx bx-search-alt-2'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>RAG</h4>
+                        <span class="skill-badge">Proficient</span>
+                    </div>
+                    <p>Retrieval-Augmented Generation, vector embeddings & knowledge search.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-bottom" data-category="ai-ml">
+                <div class="skill-icon"><i class='bx bx-chip'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>Machine Learning</h4>
+                        <span class="skill-badge">Advanced</span>
+                    </div>
+                    <p>Scikit-learn, regression, classification, clustering & feature engineering.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-right" data-category="ai-ml">
+                <div class="skill-icon"><i class='bx bx-network-chart'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>Deep Learning</h4>
+                        <span class="skill-badge">Proficient</span>
+                    </div>
+                    <p>Neural networks, Computer Vision, and natural language processing.</p>
+                </div>
+            </div>
+
+            <!-- Cloud & MLOps -->
+            <div class="skill-card fade-left" data-category="cloud-devops">
+                <div class="skill-icon"><i class='bx bx-git-repo-forked'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>MLOps</h4>
+                        <span class="skill-badge">Specialist</span>
+                    </div>
+                    <p>Pipeline automation, model artifact registry, experiment tracking & DVC.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-top" data-category="cloud-devops">
+                <div class="skill-icon"><i class='bx bx-cloud'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>Cloud Computing</h4>
+                        <span class="skill-badge">AWS EC2</span>
+                    </div>
+                    <p>Deploying cloud workloads, EC2 instances, S3 storage & server config.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-bottom" data-category="cloud-devops">
+                <div class="skill-icon"><i class='bx bx-infinite'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>CI/CD</h4>
+                        <span class="skill-badge">DevOps</span>
+                    </div>
+                    <p>Automated build, test, and continuous delivery pipelines via GitHub Actions.</p>
+                </div>
+            </div>
+
+            <!-- Backend & APIs -->
+            <div class="skill-card fade-right" data-category="backend">
+                <div class="skill-icon"><i class='bx bx-zap'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>FastAPI</h4>
+                        <span class="skill-badge">High Perf</span>
+                    </div>
+                    <p>Async Python API endpoints with automatic OpenAPI documentation.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-left" data-category="backend">
+                <div class="skill-icon"><i class='bx bxl-nodejs'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>Node.js & Express</h4>
+                        <span class="skill-badge">Full Stack</span>
+                    </div>
+                    <p>Backend microservices, event-driven architecture, and REST routing.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-top" data-category="backend">
+                <div class="skill-icon"><i class='bx bx-transfer'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>REST API</h4>
+                        <span class="skill-badge">Design</span>
+                    </div>
+                    <p>Standardized endpoints, authentication, pagination, and JSON schemas.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-bottom" data-category="backend">
+                <div class="skill-icon"><i class='bx bx-data'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>SQL & Databases</h4>
+                        <span class="skill-badge">RDBMS</span>
+                    </div>
+                    <p>Relational queries, schema design, indexing, and data optimization.</p>
+                </div>
+            </div>
+
+            <!-- Frontend -->
+            <div class="skill-card fade-right" data-category="frontend">
+                <div class="skill-icon"><i class='bx bxl-react'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>React</h4>
+                        <span class="skill-badge">Modern UI</span>
+                    </div>
+                    <p>Component-driven reactive interfaces, state hooks, and dynamic rendering.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-left" data-category="frontend">
+                <div class="skill-icon"><i class='bx bxl-javascript'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>JavaScript (ES6+)</h4>
+                        <span class="skill-badge">Core</span>
+                    </div>
+                    <p>Asynchronous operations, DOM manipulation, promises, and modern syntax.</p>
+                </div>
+            </div>
+
+            <!-- Core Languages -->
+            <div class="skill-card fade-top" data-category="backend">
+                <div class="skill-icon"><i class='bx bxl-python'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>Python</h4>
+                        <span class="skill-badge">Primary</span>
+                    </div>
+                    <p>Data science, PyTorch, Pandas, NumPy, model training & automation.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-bottom" data-category="backend">
+                <div class="skill-icon"><i class='bx bx-code-alt'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>C++ (DSA)</h4>
+                        <span class="skill-badge">DSA & STL</span>
+                    </div>
+                    <p>High-efficiency algorithms, memory-conscious data structures & CP.</p>
+                </div>
+            </div>
+
+            <div class="skill-card fade-right" data-category="frontend">
+                <div class="skill-icon"><i class='bx bxl-html5'></i></div>
+                <div class="skill-info">
+                    <div class="skill-head">
+                        <h4>HTML5 & CSS3</h4>
+                        <span class="skill-badge">Responsive</span>
+                    </div>
+                    <p>Semantic markup, CSS Grid, Flexbox, smooth transitions & mobile responsiveness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="project" id="project">
+        <h2 class="heading fade-top">Featured <span>Projects</span></h2>
+        <p class="section-subtitle fade-top">Real-world systems spanning full-stack machine learning, MLOps deployment
+            pipelines, and analytics.</p>
+
+        <div class="project-container">
+            <!-- Project 1: InsuranceX (New Featured Project) -->
+            <div class="project-card featured-project fade-left">
+                <div class="project-badge">Featured • MLOps & Cloud</div>
+                <div class="project-header">
+                    <div class="project-title-row">
+                        <i class='bx bx-shield-quarter project-logo-icon'></i>
+                        <div>
+                            <h3>InsuranceX</h3>
+                            <span class="project-subtitle">Vehicle Insurance Prediction & End-to-End MLOps</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="education-content">
-                    <div class="content">
-                       <a class="year"><img src="Image/calender.webp" alt="calender">2022-2023</a>
-                       <h3>Higher  Secondary Examination</h3>
-                       <p>i passed my secondary examation from BARGACHIA UNION PRIYANATH PATHSALA with
-                        79% marks that is 395 out of 500 from West Bengal Council of Higher Secondary Education(WBCHSE)</p>
+                <p class="project-desc">
+                    An enterprise-grade, end-to-end Machine Learning pipeline that predicts customer interest in vehicle
+                    insurance. Implements complete MLOps best practices: automated data ingestion, validation, model
+                    evaluation, Docker containerization, CI/CD pipeline automation, and live cloud deployment on AWS
+                    EC2.
+                </p>
 
+                <div class="project-tags">
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">MLOps</span>
+                    <span class="tag">AWS EC2</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">CI/CD</span>
+                    <span class="tag">FastAPI / Flask</span>
+                    <span class="tag">Python</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://github.com/titasmal75-wq/InsuranceX" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-primary">
+                        <i class='bx bxl-github'></i> GitHub Repo
+                    </a>
+                    <a href="http://13.218.104.30:5000/" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-accent">
+                        <i class='bx bx-broadcast'></i> Live Demo
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2: WhatsApp Chat Analyst -->
+            <div class="project-card fade-right">
+                <div class="project-badge">Data Science & NLP</div>
+                <div class="project-header">
+                    <div class="project-title-row">
+                        <i class='bx bx-message-rounded-dots project-logo-icon'></i>
+                        <div>
+                            <h3>WhatsApp Chat Analyst</h3>
+                            <span class="project-subtitle">Interactive Text & Sentiment Analytics</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="education-content">
-                    <div class="content">
-                       <a class="year"><img src="Image/calender.webp" alt="calender">2024-2028</a>
-                       <h3>Bechelor Degree</h3>
-                       <p>currently i am doing my bechelor degree in Computer Science and Engineering from  JALPAIGURI GOVERNMENT ENGINEERING COLLEGE</p>
+                <p class="project-desc">
+                    An interactive analytics web dashboard that transforms exported conversational data into actionable
+                    behavioral insights. Employs regex parsers, exploratory data analysis, emoji usage tracking,
+                    sentiment mapping, and day/time activity heatmaps via Streamlit.
+                </p>
 
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Pandas</span>
+                    <span class="tag">Streamlit</span>
+                    <span class="tag">NLP</span>
+                    <span class="tag">Matplotlib</span>
+                    <span class="tag">Regex</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://github.com/titasmal75-wq/Whatsapp_chat_Analysis" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-primary">
+                        <i class='bx bxl-github'></i> GitHub Repo
+                    </a>
+                    <a href="https://whatsappchatanalysis-pcuxd3ysvng9cc9rx2zgl4.streamlit.app/" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-accent">
+                        <i class='bx bx-link-external'></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading fade-top">My <span>Journey</span></h2>
+        <p class="section-subtitle fade-top">Academic milestones, leadership activities, and extracurricular engagement.
+        </p>
+
+        <div class="education-row">
+
+            <div class="education-column fade-left">
+                <h3 class="title"><i class='bx bx-book-reader'></i> Education</h3>
+                <div class="education-box">
+                    <div class="education-content fade-bottom">
+                        <div class="content">
+                            <span class="year"><img src="Image/calender.webp" alt="Calendar">2024 - 2028</span>
+                            <h3>Bachelor of Technology (B.Tech) - CSE</h3>
+                            <h4 class="institute">Jalpaiguri Government Engineering College</h4>
+                            <p>Pursuing Computer Science and Engineering with a focus on Artificial Intelligence,
+                                Machine Learning, Operating Systems, Computer Networks, and DBMS.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content fade-bottom">
+                        <div class="content">
+                            <span class="year"><img src="Image/calender.webp" alt="Calendar">2022 - 2023</span>
+                            <h3>Higher Secondary Examination</h3>
+                            <h4 class="institute">Bargachia Union Priyanath Pathsala</h4>
+                            <p>Completed under WBCHSE with 79% marks (395/500), with primary focus on Mathematics,
+                                Physics, and Chemistry.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content fade-bottom">
+                        <div class="content">
+                            <span class="year"><img src="Image/calender.webp" alt="Calendar">2020 - 2021</span>
+                            <h3>Secondary Examination</h3>
+                            <h4 class="institute">Bargachia Union Priyanath Pathsala</h4>
+                            <p>Passed under WBBSE with 85% marks (595/700) demonstrating solid fundamentals in Science
+                                and Mathematics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activities Column -->
+            <div class="education-column fade-right">
+                <h3 class="title"><i class='bx bx-award'></i> Campus & Activities</h3>
+                <div class="education-box">
+                    <div class="education-content fade-bottom">
+                        <div class="content">
+                            <span class="year"><img src="Image/calender.webp" alt="Calendar">2024 - Present</span>
+                            <h3>Active Member — D.N.C. (Developers & Coders Club)</h3>
+                            <h4 class="institute">Jalpaiguri Government Engineering College</h4>
+                            <p>Actively participating in coding hackathons, technical workshops, algorithmic
+                                problem-solving sessions, and peer mentoring.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content fade-bottom">
+                        <div class="content">
+                            <span class="year"><img src="Image/calender.webp" alt="Calendar">2024 - Present</span>
+                            <h3>Outreach Member — National Service Scheme (NSS)</h3>
+                            <h4 class="institute">JGEC NSS Unit</h4>
+                            <p>Contributing to community outreach initiatives, blood donation drives, educational
+                                drives, and social welfare programs.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content fade-bottom">
+                        <div class="content">
+                            <span class="year"><img src="Image/calender.webp" alt="Calendar">2024 - Present</span>
+                            <h3>Sports Club Member</h3>
+                            <h4 class="institute">JGEC Sports Society</h4>
+                            <p>Passionate football enthusiast, participating in inter-departmental tournaments and
+                                embracing team collaboration and strategy.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-         <div class="education-column">
-            <h3 class="title"> Activity </h3>
-            <div class="education-box">
-                <div class="education-content">
-                    <div class="content">
-                       <a class="year"><img src="Image/calender.webp" alt="calender">2024-2026</a>
-                       <h3>Member of D.N.C.</h3>
-                       <p>Currently I am active member of D.N.C which is the coder's club of Jalpaiguri Government Engineering College</p>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading fade-top">Contact <span>Me</span></h2>
+        <p class="section-subtitle fade-top">Interested in collaborating or discussing AI/ML projects? Feel free to drop
+            a message!</p>
 
-                    </div>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form zoom-in">
+            <input type="hidden" name="access_key" value="91987718-f08a-40ea-b9e9-91fff0294faa">
+            <input type="hidden" name="to" value="titas.mal75@gmail.com">
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="name" placeholder="Your Full Name" required>
                 </div>
-
-                <div class="education-content">
-                    <div class="content">
-                       <a class="year"><img src="Image/calender.webp" alt="calender">2024-2026</a>
-                       <h3>Outreach Member of NSS</h3>
-                       <p>i am current outreach member of NSS .</p>
-
-                    </div>
-                </div>
-
-                <div class="education-content">
-                    <div class="content">
-                       <a class="year" ><img src="Image/calender.webp" alt="calender">2018-2019</a>
-                       <h3>Sports Club of Jalpaiguri Government Engineering College</h3>
-                       <p>I am currently member of Sport Club of Jalpaiguri Goverment Engineering College</p>
-
-                    </div>
+                <div class="input-field">
+                    <input type="email" name="email" placeholder="Your Email Address" required>
                 </div>
             </div>
-        </div> 
 
-
-    </div>
-</section>
-
-
-<!-- skill -->
-
-<section class="skills" id="skills">
-
-    <h2 class="heading">My <span>Skills</span></h2>
-    <div class="skills-row">
-        <div class="skills-column">
-            <h3 class="title">Coding Skills</h3>
-            <div class="skills-box">
-
-                <div class="skills-content">
-                    <div class="progress">
-                        <h3>HTML<span>90%</span></h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <div class="progress">
-                        <h3>CSS<span>85%</span></h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <div class="progress">
-                        <h3>JAVASCRIPT<span>85%</span></h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <div class="progress">
-                        <h3>PYTHON<span>90%</span></h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <div class="progress">
-                        <h3>CPP<span>90%</span></h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-                
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="tel" name="phone" placeholder="Contact Number (Optional)">
+                </div>
+                <div class="input-field">
+                    <input type="text" name="subject" placeholder="Subject / Project Inquiry" required>
+                </div>
             </div>
-        </div>
-        </div>
 
-
-         <div class="skills-column">
-            <h3 class="title">ACTIVITY</h3>
-            <div class="skills-box">
-
-                <div class="skills-content">
-                    <div class="progress">
-                        <h3>MECHINE LEARNING<span>90%</span></h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <div class="progress">
-                        <h3>DEEP LEARNING<span>95%</span></h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <div class="progress">
-                        <h3>WEB DEVOLOPMENT<span>75%</span></h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <!-- <div class="progress">
-                        <h3>HTML<span>90%</span></h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <div class="progress">
-                        <h3>HTML<span>90%</span></h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-                 -->
+            <div class="textarea-field">
+                <textarea name="message" rows="7" placeholder="Type your message here..." required></textarea>
             </div>
-        </div>
-        </div>
 
-
-    </div>
-</section>
-
-
-<!-- project -->
-
-<section class="project" id ="project">
-
-    <h2 class="section-title">My Project</h2>
-    <div class="section-container">
-        <div class="project-card">
-            <h3>📊 WhatsApp Chat Analyst</h3>
-           <p>
-        An interactive data analytics dashboard that extracts and visualizes insights 
-        from exported WhatsApp chat data using Python and Streamlit.
-        The system transforms raw chat text into structured datasets using 
-        regular expressions and applies exploratory data analysis to uncover 
-        communication patterns and behavioral trends.
-    </p>
-
-    <!-- <h4>🚀 Key Features</h4>
-    <ul>
-        <li>📅 Monthly & Daily Activity Timeline</li>
-        <li>👤 Most Active Users Analysis</li>
-        <li>☁️ Word Cloud Generation</li>
-        <li>😂 Emoji Usage Statistics</li>
-        <li>🔥 Weekly & Monthly Activity Mapping</li>
-        <li>📊 Activity Heatmap (Day vs Time)</li>
-        <li>🔗 Link Detection & Media Count</li>
-    </ul>
-
-    <h4>🛠️ Tech Stack</h4>
-    <p>
-        Python • Pandas • NumPy • Streamlit • Matplotlib • Seaborn • 
-        Regex • WordCloud • URLExtract • Emoji
-    </p>
-
-    <h4>🎯 What This Project Demonstrates</h4>
-    <ul>
-        <li>Real-world data preprocessing</li>
-        <li>Handling unstructured text datasets</li>
-        <li>Data visualization & storytelling</li>
-        <li>Building interactive dashboards</li>
-        <li>Analytical thinking applied to social data</li>
-    </ul> -->
-
-    <div class="project-buttons">
-
-            <a href="https://github.com/titasmal75-wq/Whatsapp_chat_Analysis" class="btn">Github Link      </a>
-            <a href="https://whatsappchatanalysis-pcuxd3ysvng9cc9rx2zgl4.streamlit.app/" class="btn">Live Demo</a>
+            <div class="form-btn-box">
+                <button type="submit" class="btn btn-primary">
+                    <i class='bx bx-send'></i> Send Message
+                </button>
             </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text fade-left">
+            <p>© 2026 Titas Mal • Crafted with intelligence & modern web standards</p>
         </div>
-    </div>
+        <div class="footer-icontop fade-right">
+            <a href="#home" title="Back to Top" aria-label="Back to Top">
+                <i class='bx bx-up-arrow-alt'></i>
+            </a>
+        </div>
+    </footer>
 
 
-
-</section>
-
-<!-- <! contact section -->
-
-<section class="contact" id="contact">
-  <h2 class="heading">Contact <span>Me</span></h2>
-
-  <form action="https://api.web3forms.com/submit" method="POST">
-
-    <input type="hidden" name="access_key" value="91987718-f08a-40ea-b9e9-91fff0294faa">
-    <input type="hidden" name="to" value="titas.mal75@gmail.com">
-=
-    <input type="hidden" name="redirect" value="https://yourwebsite.com/thank-you.html">
-
-    <div class="input-box">
-      <div class="input-field">
-        <input type="text" name="name" placeholder="Full Name" required>
-        <span class="focus"></span>
-      </div>
-
-      <div class="input-field">
-        <input type="email" name="email" placeholder="Email Address" required>
-        <span class="focus"></span>
-      </div>
-    </div>
-
-    <div class="input-box">
-      <div class="input-field">
-        <input type="tel" name="phone" placeholder="Enter your number" required>
-        <span class="focus"></span>
-      </div>
-
-      <div class="input-field">
-        <input type="text" name="subject" placeholder="Email Subject" required>
-        <span class="focus"></span>
-      </div>
-    </div>
-
-    <div class="textarea-field">
-      <textarea name="message" rows="10" placeholder="Your Message" required></textarea>
-      <span class="focus"></span>
-    </div>
-
-    <div class="btn-box btns">
-      <button type="submit" class="btn">Submit</button>
-    </div>
-
-  </form>
-</section>
-
-
-<footer class="footer">
-    <div class="footer-text">
-        <p>Thank you for visit </p>
-    </div>
-    <div class="footer-icontop">
-        <a href="#"><img src="Image/arrow2.jpg" alt="bye"></a>
-    </div>
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

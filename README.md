@@ -1,77 +1,46 @@
-::: {align="center"}
-# Titas Mal
+# Titas Mal - Portfolio
 
-### AI/ML Engineer • Full-Stack Developer • CSE Student
+> **AI/ML Engineer • Full-Stack Developer • CSE Student at Jalpaiguri Government Engineering College**
 
-I build intelligent applications by combining **AI/ML, backend
-engineering, and modern web development**.
+A modern, responsive, and smart portfolio showcasing projects across Machine Learning, Generative AI, MLOps, and Full-Stack Web Development.
 
-[![Portfolio](https://img.shields.io/badge/Live_Portfolio-Visit-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://my-porfolio-mauve-tau.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/titasmal75-wq)
-:::👋 About Me
-I'm Titas Mal, a Computer Science and Engineering student at
-Jalpaiguri Government Engineering College, West Bengal, India. I'm
-interested in building practical software that connects machine learning
-with full-stack applications.
+[![Portfolio](https://img.shields.io/badge/Live_Portfolio-Visit-38BDF8?style=for-the-badge&logo=vercel&logoColor=white)](https://my-porfolio-mauve-tau.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/titasmal75-wq)
 
-My focus areas include:
-- 🤖 AI & Machine Learning: Machine Learning, Deep Learning,
-  Generative AI, and Retrieval-Augmented Generation (RAG)
-- 🌐 Full-Stack Development: Building web applications and APIs
-- ⚙️ MLOps: Experiment tracking, data/model pipelines, and
-  deployment workflows
-- ☁️ Cloud & Deployment: Learning to deploy and maintain
-  applications using Docker and AWS
-- 💻 Problem Solving: Data structures, algorithms, and writing
-  clean, maintainable code
-I'm always learning, building projects, and exploring ways to turn ideas
-into useful applications.
-🛠️ Tech Stack & Areas of Interest
-  Area                          Technologies
-  Programming                   Python, C++, Java, JavaScript
-  AI / ML                       Machine Learning, Deep Learning, Generative AI, RAG
-  Backend & APIs                FastAPI, Node.js, Express.js
-  Frontend                      HTML, CSS, JavaScript
-  MLOps & Experiment Tracking   DVC, MLflow
-  Deployment & Cloud            Docker, AWS, Vercel
-  Version Control               Git, GitHub
+---
 
-This list reflects my learning and project areas; the tools used in
-each project may differ.
-🚀 Featured Projects
-1. InsureIQ --- Vehicle Insurance Prediction & MLOps
-An end-to-end machine learning project focused on vehicle insurance
-response prediction, with an API and deployment workflow.
-- Machine learning model training and evaluation
-- Experiment/pipeline workflow and model artifact management
-- API-based application and cloud deployment practice
-Links: Source Code ·
-Live Demo
-2. Business Entity Resolution --- ML Pipeline
-A machine learning project focused on identifying records that may refer
-to the same business using business names, addresses, and country
-information.
-- Data ingestion, preprocessing, and feature engineering
-- Exact and fuzzy matching features
-- Model training and experiment tracking with an MLOps workflow
-Explore my GitHub repositories for
-more projects and updates.
-🌐 Explore My Portfolio
-Visit the live portfolio to learn more about my background, skills, and
-projects.
+## 🚀 Featured Projects
 
-Open My Portfolio →
-🎯 Current Goals
-- Build production-minded AI/ML and full-stack applications
-- Improve my skills in model deployment, monitoring, and MLOps
-- Create useful projects that solve real-world problems
-- Find opportunities to learn, collaborate, and contribute to
-  engineering teams
-🤝 Connect With Me
-- Portfolio:
-  my-porfolio-mauve-tau.vercel.app
-- GitHub: @titasmal75-wq
-I'm open to connecting with developers, collaborating on interesting
-projects, and learning from the tech community.
-::: {align="center"}
-**Thanks for
+### 1. [InsuranceX — Vehicle Insurance Prediction & End-to-End MLOps](https://github.com/titasmal75-wq/InsuranceX)
+- **Live Demo**: [http://13.218.104.30:5000/](http://13.218.104.30:5000/)
+- **GitHub**: [https://github.com/titasmal75-wq/InsuranceX](https://github.com/titasmal75-wq/InsuranceX)
+- **Overview**: An enterprise-grade, end-to-end Machine Learning pipeline predicting customer response for vehicle insurance cross-sell.
+- **Tech Stack**: Python, Scikit-learn, MLOps, Docker, AWS EC2, CI/CD (GitHub Actions), FastAPI / Flask.
+- **Key Highlights**: Automated data ingestion & validation, model training and evaluation, artifact management, containerization, and AWS cloud deployment.
+
+### 2. [WhatsApp Chat Analyst](https://github.com/titasmal75-wq/Whatsapp_chat_Analysis)
+- **Live Demo**: [Streamlit App](https://whatsappchatanalysis-pcuxd3ysvng9cc9rx2zgl4.streamlit.app/)
+- **GitHub**: [https://github.com/titasmal75-wq/Whatsapp_chat_Analysis](https://github.com/titasmal75-wq/Whatsapp_chat_Analysis)
+- **Overview**: An interactive data analytics dashboard extracting communication patterns, behavioral trends, emoji usage, and heatmaps from exported chat data.
+- **Tech Stack**: Python, Pandas, Streamlit, Matplotlib, Seaborn, Regex.
+
+---
+
+## 🛠️ Skills & Tech Stack
+
+| Domain | Technologies |
+| :--- | :--- |
+| **AI, GenAI & ML** | Generative AI, LLMs, RAG (Retrieval-Augmented Generation), Machine Learning, Deep Learning |
+| **Backend & APIs** | FastAPI, Node.js, Express.js, REST API, SQL |
+| **Frontend** | React, JavaScript (ES6+), HTML5, CSS3 |
+| **Cloud & MLOps** | Cloud Computing (AWS EC2), MLOps, CI/CD, Docker, Git & GitHub |
+| **Programming** | Python, C++ (DSA & Problem Solving) |
+
+---
+
+## 📱 Features of this Portfolio
+
+- **Smart Skills Filter**: Interactive categorization allowing visitors and recruiters to filter skills by `AI & GenAI`, `Backend & APIs`, `Frontend`, and `Cloud & MLOps`.
+- **Interactive "Read More"**: Seamless toggle expanding detailed background and specializations without page jumps.
+- **Fully Responsive**: Media-friendly fluid design supporting mobile phones (320px+), tablets, laptops, and ultra-wide desktops.
+- **Modern UI & Motion**: Polished dark-slate palette with cyan glowing accents, glassmorphic header, morphing profile avatar, and smooth scroll animations.
