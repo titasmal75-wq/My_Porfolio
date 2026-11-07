@@ -698,7 +698,7 @@ section {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
-    padding: 3rem 2.5rem;
+    padding: 2.4rem 2.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -717,10 +717,28 @@ section {
     background: linear-gradient(180deg, rgba(34, 42, 50, 0.95) 0%, rgba(26, 32, 38, 0.98) 100%);
 }
 
+.project-header {
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.project-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+
+.project-icon-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .project-badge {
-    position: absolute;
-    top: 2rem;
-    right: 2.2rem;
+    position: static;
     background: rgba(56, 189, 248, 0.15);
     color: var(--accent);
     font-size: 1.15rem;
@@ -728,17 +746,20 @@ section {
     padding: 0.4rem 1.1rem;
     border-radius: 20px;
     border: 1px solid rgba(56, 189, 248, 0.3);
-}
-
-.project-header {
-    margin-bottom: 1.8rem;
-    padding-right: 6rem;
+    white-space: nowrap;
+    margin-left: auto;
 }
 
 .project-title-row {
     display: flex;
     align-items: center;
     gap: 1.4rem;
+    width: 100%;
+}
+
+.project-title-info {
+    flex: 1;
+    min-width: 0;
 }
 
 .project-logo-icon {
@@ -747,6 +768,7 @@ section {
     background: rgba(56, 189, 248, 0.1);
     padding: 0.8rem;
     border-radius: var(--radius-sm);
+    flex-shrink: 0;
 }
 
 .project-card h3 {
@@ -754,6 +776,7 @@ section {
     font-family: 'Space Grotesk', sans-serif;
     color: var(--text-primary);
     font-weight: 700;
+    line-height: 1.2;
 }
 
 .project-subtitle {

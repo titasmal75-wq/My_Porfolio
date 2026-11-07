@@ -11,14 +11,20 @@ A modern, responsive, and smart portfolio showcasing projects across Machine Lea
 
 ## 🚀 Featured Projects
 
-### 1. [InsuranceX — Vehicle Insurance Prediction & End-to-End MLOps](https://github.com/titasmal75-wq/InsuranceX)
+### 1. [Zovira — Vacation Rental & Homestay Marketplace](https://github.com/titasmal75-wq/Zovira)
+- **Live Demo**: [https://zovira-1.onrender.com/](https://zovira-1.onrender.com/)
+- **GitHub**: [https://github.com/titasmal75-wq/Zovira](https://github.com/titasmal75-wq/Zovira)
+- **Overview**: A full-featured vacation rental and homestay booking platform with user authentication, destination search, date filtering, property listings, and responsive UI.
+- **Tech Stack**: Node.js, Express.js, REST API, JavaScript, Cloud Deployment (Render).
+
+### 2. [InsuranceX — Vehicle Insurance Prediction & End-to-End MLOps](https://github.com/titasmal75-wq/InsuranceX)
 - **Live Demo**: [http://13.218.104.30:5000/](http://13.218.104.30:5000/)
 - **GitHub**: [https://github.com/titasmal75-wq/InsuranceX](https://github.com/titasmal75-wq/InsuranceX)
 - **Overview**: An enterprise-grade, end-to-end Machine Learning pipeline predicting customer response for vehicle insurance cross-sell.
 - **Tech Stack**: Python, Scikit-learn, MLOps, Docker, AWS EC2, CI/CD (GitHub Actions), FastAPI / Flask.
 - **Key Highlights**: Automated data ingestion & validation, model training and evaluation, artifact management, containerization, and AWS cloud deployment.
 
-### 2. [WhatsApp Chat Analyst](https://github.com/titasmal75-wq/Whatsapp_chat_Analysis)
+### 3. [WhatsApp Chat Analyst](https://github.com/titasmal75-wq/Whatsapp_chat_Analysis)
 - **Live Demo**: [Streamlit App](https://whatsappchatanalysis-pcuxd3ysvng9cc9rx2zgl4.streamlit.app/)
 - **GitHub**: [https://github.com/titasmal75-wq/Whatsapp_chat_Analysis](https://github.com/titasmal75-wq/Whatsapp_chat_Analysis)
 - **Overview**: An interactive data analytics dashboard extracting communication patterns, behavioral trends, emoji usage, and heatmaps from exported chat data.
